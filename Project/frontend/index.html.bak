@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML CSS</title>
+    <!-- Links the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph with some basic styling applied using an external CSS file.</p>
+</body>
+</html>
+
+body {
+    background-color: #f0f0f0; /* Light gray background for the whole page */
+    font-family: Arial, sans-serif; /* Sets the default font */
+    margin: 40px; /* Adds space around the content */
+}
+
+h1 {
+    color: #0066cc; /* Blue color for the main heading */
+    text-align: center; /* Centers the heading text */
+    border-bottom: 2px solid #0066cc; /* Adds a blue border at the bottom */
+    padding-bottom: 10px; /* Space between the text and the border */
+}
+
+p {
+    color: #333333; /* Dark gray color for the paragraph text */
+    font-size: 16px; /* Sets the font size */
+    line-height: 1.5; /* Improves readability with extra line spacing */
+}
